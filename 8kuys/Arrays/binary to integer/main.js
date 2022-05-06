@@ -18,3 +18,12 @@ const binaryArrayToNumber = arr => {
     let integer=parseInt(binary, 2)
     return integer
   };
+
+  /**Complete the function which converts a binary number
+   *  (given as a string) to a decimal number. */
+  function binToDec(bin){
+    // ...
+    let dec=parseInt(bin,2)
+    return dec
+    
+  }
