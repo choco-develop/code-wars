@@ -14,7 +14,7 @@ Examples (input --> output)
 
 
 
-
+function countDivison (n){
 let counter=0
 for(let i=1;i<=n;i++){
   if(n%i ===0){
@@ -22,3 +22,4 @@ for(let i=1;i<=n;i++){
   }
 }
 return counter
+}
