@@ -18,3 +18,6 @@ For example: month 2 (February), is part of the first quarter; month 6 (June), i
     }
     
   }
+
+  const quarterOfMonth = m => Math.ceil(m/3);
+  //math.ceil rounds up a number to its nearest integer
