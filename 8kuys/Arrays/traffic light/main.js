@@ -17,3 +17,8 @@ function updateLight(current) {
       return 'green'
     }
 }
+
+//using ternary operator
+function updateLight(current) {
+return current ==='green'? 'yellow':current ==='yellow'? 'red':'green'
+}
