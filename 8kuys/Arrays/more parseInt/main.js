@@ -10,3 +10,13 @@ function getAge(inputString){
       age=parseInt(age,10)
        return age
     }
+    //they all work the same way
+
+    function getAge(inputString){
+        // sincxe parseInt only works on numbers,it will only return the number in the string
+          return parseInt(inputString)
+        }
+        function getAge(inputString){
+            //10 is added to specify the base of the integer...hence parseInt is used to convert binary to base 10
+              return parseInt(inputString,10)
+            }
