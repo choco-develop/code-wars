@@ -15,6 +15,8 @@ function rowSumOddNumbers(n) {
 	// TODO
   
   return Math.pow(n,3)
-}
+}               
 
 //n to power of three is such that a triangle HAS 3 SIDES
+
+
