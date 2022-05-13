@@ -12,3 +12,7 @@ function testEven(n) {
     //Your awesome code here!
   return n%2===0? true:false
 }
+function testEven(n) {
+    //both produce same result but the above has a faster run time
+  return n%2===0
+}
