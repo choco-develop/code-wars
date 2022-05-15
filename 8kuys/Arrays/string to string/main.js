@@ -12,3 +12,8 @@ Example: (Input1, Input2 -->Output)
 function sumStr(a,b) {
     return ((a*1)+ (b*1)).toString()
   }
+  //a string *1 produces a number
+  
+  function sumStr(a,b) {
+    return String(Number(a)+ Number(b))
+  }
