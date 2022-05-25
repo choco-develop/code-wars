@@ -14,3 +14,10 @@ function abbrevName(name){
   return name.split(' ').map((letter)=>letter.substr(0,1).toUpperCase()).join(".")
 
 }
+
+function abbrevName(name){
+
+    // code away
+  return name.split(' ').map((letter)=>letter.charAt(0).toUpperCase()).join(".")
+
+}
