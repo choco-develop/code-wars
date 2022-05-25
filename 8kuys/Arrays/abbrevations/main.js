@@ -21,3 +21,9 @@ function abbrevName(name){
   return name.split(' ').map((letter)=>letter.charAt(0).toUpperCase()).join(".")
 
 }
+function abbrevName(name){
+
+    // code away
+  return name.split(' ').map((letter)=>letter[0].toUpperCase()).join(".")
+
+}
