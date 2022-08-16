@@ -9,7 +9,7 @@ This function should return a number (final grade). There are four types of fina
 
 
 function finalGrade (exam, projects) {
-    if(exam>90&& projects>10){
+    if(exam>90 || projects>10){
       return 100
     }
       else if(exam >75 &&projects>=5){
