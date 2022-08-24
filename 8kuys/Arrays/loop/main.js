@@ -20,12 +20,18 @@ return sumSqr
 }
 
 let numbers=[45,34,78,21,14,94]
-numbers=numbers.forEach(function(element,index,array){
+
+/*numbers=numbers.forEach(function(element,index,array){
  console.log(element*2)}
-) 
+)*/
+let newNumbers=[]
+numbers.forEach((element)=>newNumbers.push(element*2))
+console.log(newNumbers)
 let arr=[45,34,78,21,14,94]
-let sumNumbers=0
-arr.forEach(function(element,index,array){
-(sumNumbers+=element)}
+
+arr=arr.forEach(function(element,index,array){
+ console.log(element*element)}
 )
-console.log(sumNumbers)
+console.log(arr)
+//numbers=numbers.forEach((element)=>console.log(element*2))
+
