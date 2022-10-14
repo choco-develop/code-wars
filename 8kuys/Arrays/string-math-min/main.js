@@ -5,3 +5,7 @@ String will never be empty and you do not need to account for different data typ
 function findShort(s){
     return Math.min.apply(null, s.split(' ').map(i=> i.length));
   }
+
+  function findShort(s){
+    return Math.min(...s.split(" ").map (s => s.length));
+}
