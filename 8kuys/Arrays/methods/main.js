@@ -28,4 +28,7 @@ function getLast(arr){
     //return the last element of arr
     return arr[arr.length-1]
   }
-  
+  function getLength(arr){
+    //return length of arr  
+    return arr.length
+  }
