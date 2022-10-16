@@ -37,3 +37,14 @@ function getLast(arr){
     //return the first element of arr
     return arr[0]
   }
+  function pushElement(arr){
+    var el=1;
+    //push el to arr
+    arr.push(el)
+    return arr
+  }
+  function popElement(arr){
+    //pop an element from arr
+    arr.pop()
+    return arr
+  }
