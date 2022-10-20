@@ -26,4 +26,5 @@ Note: newlines should be added between rows, but there should be no trailing new
     }
     return table.join("\n")
   }
+  /* \n is a new line creator in javascript it can be used to arrange an array as a list*/ 
   
