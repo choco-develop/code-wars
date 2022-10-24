@@ -10,3 +10,10 @@ function capitalize(s){
     let odd=s.split('').map((x,i)=>(i+1)%2===0?x.toUpperCase():x).join("")
     return [even,odd];
   };
+
+  //alternative solution
+  function capitalize(s){
+    let even=s.split('').map((x,i)=>i%2===0?x.toUpperCase():x).join("")
+    let odd=s.split('').map((x,i)=>i%2!=0?x.toUpperCase():x).join("")
+    return [even,odd];
+  };
