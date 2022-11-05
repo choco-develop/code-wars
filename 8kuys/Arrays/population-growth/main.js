@@ -29,3 +29,5 @@ function nbYear(p0, percent, aug, p) {
   }
   return years
 }
+
+//var is used beacuse let is not a global variable and hence years called in the return will output undefined
